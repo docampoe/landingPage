@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(242,112,156);
+    background: linear-gradient(90deg, rgba(242,112,156,1) 20%, rgba(255,148,114,1) 100%);
+}
+
+/*Circle Main */
+.first_circle{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 75px;
+    top: 194px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #F2709C 0%, #FF9472 96.67%);    
+}
+
+.second_circle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 753px;
+    top: 194px;
+    border-radius: 50%;
+    background: linear-gradient(252.23deg, #F2709C 22.72%, #FF9472 84.93%);
+}
+
+.third_circle{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 553px;
+    top: 649px;
+    border-radius: 50%;
+    background: linear-gradient(262.73deg, #F2709C 5.39%, #FF9472 115.86%);
+}
+
+.fourth_circle{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 192px;
+    top: 1386px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #F2709C 0%, #FF9472 100%);
+}
+
+.fifth_circle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 953px;
+    top: 1503px;
+    border-radius: 50%;
+    background: linear-gradient(226.81deg, #F2709C 26.86%, #FF9472 102.06%);
+
+}
+
+.sixth_circle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1196px;
+    top: 534px;
+    border-radius: 50%;
+    background: linear-gradient(257.36deg, #F2709C 9.16%, #FF9472 125.83%);
+
+}
+
+.seventh_circle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 75px;
+    top: 890px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #F2709C 0%, #FF9472 100%);
+}
+/* Circle End */
+
+
+/* Header Inicio*/
+.nav_header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BD5276;
+    height: 90px;
+}
+
+#main_nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+#main_nav li{
+    font-size: 22px;
+    display: flex;
+    margin-right: 10px;
+}
+
+#main_nav a{
+    color: white;
+    background-color: #F2709C;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#main_nav a:hover{
+    background-color: #eb8ead;
+}
+
+.img_main{
+
+}
+
+/* Header final*/
