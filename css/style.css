@@ -69,7 +69,6 @@ body{
     top: 534px;
     border-radius: 50%;
     background: linear-gradient(257.36deg, #F2709C 9.16%, #FF9472 125.83%);
-
 }
 
 .seventh_circle{
@@ -84,7 +83,7 @@ body{
 /* Circle End */
 
 
-/* Header Inicio*/
+/* Header Main*/
 .nav_header{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #BD5276;
@@ -115,12 +114,9 @@ body{
 #main_nav a:hover{
     background-color: #eb8ead;
 }
-.img_main{
-}
+/* Header End*/
 
-/* Header final*/
-
-/* Section Content */
+/* Section Content Main */
 .content_section{
     position: relative;
     display: flex;
@@ -129,7 +125,9 @@ body{
     flex-wrap: wrap;
     width: 100%;
     overflow: hidden;
+    margin-top: 50px;
 }
+
 .content_section .box {
     position: relative;
     width: 800px;
@@ -140,11 +138,12 @@ body{
     align-items: center;
     margin: 20px 30px;
     transition: 0.5s;
-  
 }
+
 .content_section .box:hover{
     transform: translateY(-20px);
 }
+
 .content_section .box::before{
     content: '';
     position: absolute;
@@ -157,8 +156,7 @@ body{
     border-radius: 15px;
 }
 
-.content_section .box span::before
-{
+.content_section .box span::before{
     content: '';
     position: absolute;
     top: 0;
@@ -167,36 +165,125 @@ body{
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
     pointer-events: none;
-   
 }
-.content_section .box .content
-{
+
+.content_section .box .content{
     text-align: center;
     position: relative;
     z-index: 10;
     padding: 20px 40px;
 }
-.content_section .box .content h2
-{
-    font-size: 1.1em;
+
+.content_section .box .content h1{
+    font-size: 1.3em;
     color: #111;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-.content_section .box .content p
-{
+
+.content_section .box .content p{
     font-size: 1.1em;
-    color: #111;
-    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 70px;
     line-height: 1.4em;
 }
-.content_section .box .content a
-{
+
+.content_section .box .content a{
     display: inline-block;
     font-size: 1.1em;
     color: #111;
     background: #fff;
+    border-radius: 4px;
     padding: 10px;
     text-decoration: none;
     font-weight: 600;
 }
-/* Section Content */
+
+/* Section Content End */
+
+
+/*Form section Main */
+.form-register {
+    width: 800px;
+    height: 550px;
+    background: #ff522fab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #dd2477b0, #ff522f98);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #dd297a93, #ff55338f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 38px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-family:'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    background-position: bottom;
+    position: relative ;
+    left: 15px;
+    top: 150px;
+}
+
+.form-register h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color:rgb(255, 255, 255);
+    font-family:'Poppins', sans-serif;
+}
+
+.controls {
+    width: 500px;
+    background: #db0b8475;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    border: 2px solid #ce0470c7;
+    font-size: 17px;
+    color: white;
+    margin-left: 110px;
+    text-align: center;
+}
+
+.controls::placeholder{
+    color: rgb(209, 202, 202);
+}
+
+.form-register p {
+    height: 20px;
+    margin-top: 15px;
+    text-align:center; 
+    font-size:18px;
+    line-height:22px;
+}
+
+.form-register a {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.form-register h3{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-register a:hover {
+    color:rgb(27, 200, 200);
+    text-decoration: underline;
+} 
+
+.form-register .botons {
+    width: 300px;
+    margin-top: 30px ;
+    margin-left: 215px;
+    background: rgba(160, 30, 47, 0.596);
+    padding: 12px;
+    border:rgb(245, 143, 10);
+    color:rgb(255, 255, 255);
+    font-size:16px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family:'Poppins', sans-serif;
+}
+
+/*form section End */
